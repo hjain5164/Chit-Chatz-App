@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/req_relative_layout"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="30dp"
+    android:layout_height="wrap_content">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/req_image"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_weight="0"
+        android:layout_marginLeft="16dp"
+        android:src="@mipmap/default_avatar" />
+
+    <TextView
+        android:id="@+id/req_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/req_name"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/message_text_background"
+        android:padding="8dp"
+        android:text="SENT"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/req_name"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/red_background"
+        android:padding="8dp"
+        android:text="RECEIVED"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.harshjain.chitchatz.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settings_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/default_avatar" />
+
+    <TextView
+        android:id="@+id/settings_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Display Name"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="I am using ChitChatz App"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/settings_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/settings_status_btn"
+        android:layout_below="@+id/settings_status"
+        android:layout_marginTop="111dp"
+        android:backgroundTint="@android:color/white"
+        android:paddingLeft="23sp"
+        android:paddingRight="23sp"
+        android:text="@string/change_image"
+        android:textColor="@color/colorPrimary" />
+
+
+    <Button
+        android:id="@+id/settings_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="@string/change_status"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
