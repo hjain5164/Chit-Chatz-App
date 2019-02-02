@@ -1,6 +1,6 @@
 {
   "project_info": {
-    "project_number": "710782501868",
+    "project_number": "7107XXXXXXXX",
     "firebase_url": "https://chitchatz-3d14b.firebaseio.com",
     "project_id": "chitchatz-3d14b",
     "storage_bucket": "chitchatz-3d14b.appspot.com"
@@ -8,28 +8,28 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:710782501868:android:81634ed6b15df89d",
+        "mobilesdk_app_id": "1:710XXXXXXXX8:android:81XXXXXXX15df89d",
         "android_client_info": {
           "package_name": "com.example.harshjain.chitchatz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "710782501868-36ijgdehqbkprh9hib05h1jjb0n10vkb.apps.googleusercontent.com",
+          "client_id": "710782501868-36ijgdeXXXXXXXXXXXXXXXXXb0n10vkb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.harshjain.chitchatz",
-            "certificate_hash": "2a47d1d1cf511802552126d42ba4c2c10c9d57c2"
+            "certificate_hash": "2a47d1d1cf511XXXXXXXXXXXXXXXXXXXXc9d57c2"
           }
         },
         {
-          "client_id": "710782501868-lkn9oid9p8467f721cabcilfksj5h0um.apps.googleusercontent.com",
+          "client_id": "710782501868-lkn9XXXXXXXXXXXXXXXXXXXXXXXXh0um.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCg69Kw8xwSpgbq3M9CyUJcx6SgnT9kchA"
+          "current_key": "AIXXXXXXXXXXXXXXXXXXXXXXXXkchA"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "710782501868-lkn9oid9p8467f721cabcilfksj5h0um.apps.googleusercontent.com",
+              "client_id": "710782501868-lkXXXXXXXXXXXXXXXXXXXcilfksj5h0um.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
